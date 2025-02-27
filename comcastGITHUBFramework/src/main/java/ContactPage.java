@@ -28,6 +28,11 @@ public class ContactPage {
 	
 	@FindBy(name="support_end_date")
 	private WebElement supportenddate;
+	
+	@FindBy(xpath = "//img[@alt='Create Organization...']")
+	private WebElement createNewOrgBtns;
+	
+	
 
 	public WebElement getSupportstartdate() {
 		return supportstartdate;
